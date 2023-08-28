@@ -1,10 +1,44 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+.container{
+    max-width: 515px;
+    margin: 0 auto;
 }
 
 .header{
-    color: whitesmoke;
-    padding: 20px;
-    background-color: rgb(224, 89, 71);
+    color:#FFFFFF;
+    background-color: #E25544;
+    min-height: 214px;
+    padding: 32px 0 24px;
+}
+
+.header .title{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Montserrat;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.header .subtitle{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.header .description{
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Montserrat;
 
 }
