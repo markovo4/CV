@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 1;
+    font-family: Montserrat;
 }
 
 .container{
@@ -41,4 +42,38 @@
     font-weight: 400;
     font-family: Montserrat;
 
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__info{
+    max-width: 351px;
+}
+
+.header__photo{
+    display: flex;
+}
+
+.header__photo img{
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+}
+
+.contacts ul{
+    display: flex;
+    justify-content: space-between;
+    min-height: 65px;
+    align-items: center;
+    border-bottom: 1px solid #DEE2ED;
+}
+
+.contacts a{
+    font-size: 10px;
+    color: #485268;
+    text-decoration: none;
 }
